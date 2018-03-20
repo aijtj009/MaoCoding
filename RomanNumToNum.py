@@ -49,3 +49,4 @@ def getRomanNum(RomanStr):
      
 print("XIX=",getRomanNum("XIX"))
 print("IXX=",getRomanNum("IXX"))
+print("MCDXVI=",getRomanNum("MCDXVI"))

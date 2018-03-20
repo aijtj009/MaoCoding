@@ -1,3 +1,4 @@
+
 n=input("Type in Password\n")
 if 'mao' == n:
     for i in range(9):

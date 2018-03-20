@@ -1,5 +1,5 @@
 import math
-n=3000
+n=201
 primes=[2]
 for i in range(3,n+1,2):
     Prime=True

@@ -37,11 +37,12 @@ def numToRomanNum(Num):
                  retstr = str.join(['',retstr])
         return retstr  #注意这里的缩进，要输出的是什么
          
-for i in range(1,101):
-	print(i,'=',numToRomanNum(i))
-print(183,'=',numToRomanNum(183))
+#for i in range(1,101):
+	#print(i,'=',numToRomanNum(i))
+print(49,'=',numToRomanNum(49))
 print(275,'=',numToRomanNum(275))
 print(366,'=',numToRomanNum(366))
 print(439,'=',numToRomanNum(439))
 print(521,'=',numToRomanNum(521))
 print(612,'=',numToRomanNum(612))
+print(2018,'=',numToRomanNum(2018))
