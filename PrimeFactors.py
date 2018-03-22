@@ -1,7 +1,8 @@
 import math
-n=201
+start=1000000000
+n= 1000000099
 primes=[2]
-for i in range(3,n+1,2):
+for i in range(3,int(math.sqrt(n+1))+1,2):
     Prime=True
     for j in range(3,int(math.sqrt(i))+2,2):
         if i%j==0:
@@ -10,7 +11,7 @@ for i in range(3,n+1,2):
     if Prime:
         primes.append(i)
 print(primes)
-for i in range(3,n+1):
+for i in range(start,n+1):
     divide=[]
     m=i
     for j in primes:
