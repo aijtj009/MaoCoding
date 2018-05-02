@@ -1,0 +1,3 @@
+pyinstaller -F -i xxx.ico hello.py
+
+-F 表示只生成一个文件 -i 表示设置exe文件图标

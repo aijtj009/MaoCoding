@@ -26,4 +26,3 @@ while i<180:
     if i%5==0: f.write("\n\n")
 f.close()
 print("22+98-()=15.doc Generated.")
-
