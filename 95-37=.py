@@ -8,6 +8,6 @@ while i<800:
     if n<=0 or j % 10 == 0 or k % 10 == 0: continue
     f.write(str(j)+"-"+str(k)+"="+" "*4)
     i+=1
-    if i%9==0: f.write("\n")
+    if i%9==0: f.write("\n\n")
 f.close()
 print("95-37=.doc Generated.")
